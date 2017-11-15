@@ -12,6 +12,7 @@
 		F947B0D01FA35D6D000B00DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F947B0CE1FA35D6D000B00DA /* Main.storyboard */; };
 		F947B0D21FA35D6D000B00DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F947B0D11FA35D6D000B00DA /* Assets.xcassets */; };
 		F947B0D51FA35D6D000B00DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F947B0D31FA35D6D000B00DA /* LaunchScreen.storyboard */; };
+		F947B0DD1FA3BEFE000B00DA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947B0DC1FA3BEFE000B00DA /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F947B0D11FA35D6D000B00DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F947B0D41FA35D6D000B00DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F947B0D61FA35D6D000B00DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F947B0DC1FA3BEFE000B00DA /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Article.swift; path = ../Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F947B0CA1FA35D6D000B00DA /* AppDelegate.swift */,
 				F947B0CC1FA35D6D000B00DA /* ViewController.swift */,
+				F947B0DC1FA3BEFE000B00DA /* Article.swift */,
 				F947B0CE1FA35D6D000B00DA /* Main.storyboard */,
 				F947B0D11FA35D6D000B00DA /* Assets.xcassets */,
 				F947B0D31FA35D6D000B00DA /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				F947B0CD1FA35D6D000B00DA /* ViewController.swift in Sources */,
 				F947B0CB1FA35D6D000B00DA /* AppDelegate.swift in Sources */,
+				F947B0DD1FA3BEFE000B00DA /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
